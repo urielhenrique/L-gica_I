@@ -1,0 +1,27 @@
+<meta charset="UTF-8" />
+
+<script>
+  function pulaLinha() {
+    document.write('<br>')
+  }
+
+  function mostra(frase) {
+    document.write(frase)
+  }
+
+  var nascimentoBrasil = 1500
+  var anoAtual = 2021
+  var media = 28
+  var idadeDoBrasil = anoAtual - nascimentoBrasil
+  var geracoes = idadeDoBrasil / media
+
+  mostra(
+    'Desde de ' +
+      nascimentoBrasil +
+      ' até ' +
+      anoAtual +
+      ' se passaram ' +
+      Math.trunc(geracoes) +
+      ' gerações no Brasil'
+  )
+</script>
